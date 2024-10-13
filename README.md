@@ -10,10 +10,9 @@ Intellicoders is a Flask-based web application that integrates basic JavaScript 
 ## Setup Instructions
 
 ### 1. Clone the Repository
-Clone this repository to your local machine using: git clone https://github.com/yourusername/intellicoders.git
+Clone this repository to your local machine using: git clone url
 
-### 2. Navigate to the Backend Folder
-Change your directory to the Backend folder: cd intellicoders/Backend
+
 
 ### 3. Set Up a Virtual Environment
 Set up a virtual environment in the `/Backend` folder: python -m venv venv
@@ -41,31 +40,6 @@ Run the Flask application: python run.py
 
 The following files and directories should be included but have been left out: intellicoders/Backend/app/config.py
 
-## Project Structure
-
-The project structure should look like this:
-
-Intellicoders/
-├── Backend/
-│ ├── app/
-│ │ ├── init.py
-│ │ ├── config.py
-│ │ └── routes.py
-│ ├── instance/
-│ │ ├── config.py
-│ ├── requirements.txt
-│ └── run.py
-├── Frontend/
-│ ├── assets/
-│ │ ├── shapes at 24-07-17 20.29.26.png
-│ │ └── top_left_logo_.png
-│ ├── scripts/
-│ │ └── script.js
-│ ├── styling/
-│ │ └── style.css
-│ └── templates/
-│ └── index.html
-└── .gitignore
 
 
 ## How It Works
